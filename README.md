@@ -1,20 +1,56 @@
-# Home Assistant Blueprints – Fully Kiosk
+# Home-Assistant-Blueprint
+Home Assistant Blueprints for Fully Kiosk Browser
 
-Diese Blueprints steuern automatisch den Bildschirm-Timeout des
-**Fully Kiosk Browsers**, abhängig von der aktiven App.
+# Fully Kiosk – Streaming Display Timeout Blueprints
 
-## Features
-- Bildschirm bleibt an bei Streaming
-- Timeout wird automatisch wiederhergestellt
-- Unterstützt Netflix, Disney+, Prime Video, WOW
+Diese Blueprints steuern automatisch den Bildschirm-Timeout von **Fully Kiosk Browser**,
+abhängig davon, ob eine Streaming-App im Vordergrund läuft.
 
-## Installation
+## ✨ Features
+- Display bleibt **dauerhaft an**, während Streaming-Apps laufen
+- Timeout wird **automatisch wiederhergestellt**, sobald Streaming beendet wird
+- Unterstützt:
+  - Netflix
+  - Disney+
+  - Amazon Prime Video
+  - WOW (Sky)
 
-### Streaming Bildschirmtimer AUS
-[Install Blueprint](https://my.home-assistant.io/redirect/blueprint_import/?url=https://raw.githubusercontent.com/23Phantom08/Home-Assistant-Blueprint/main/blueprints/fully_kiosk_streaming_timeout_off.yaml)
+## 🔧 Voraussetzungen
+- Fully Kiosk Browser
+- Sensor, der die aktuell aktive App meldet
+- Number-Entity für den Display-Timeout (z. B. Fully Kiosk Integration)
 
-### Streaming Bildschirmtimer AN
-[Install Blueprint](https://my.home-assistant.io/redirect/blueprint_import/?url=https://raw.githubusercontent.com/23Phantom08/Home-Assistant-Blueprint/main/blueprints/fully_kiosk_streaming_timeout_restore.yaml)
+---
 
-## Hinweis
-Beide Blueprints sind als Paar gedacht.
+## 📺 Blueprint 1 – Streaming Bildschirmtimer **aus**
+
+Setzt den Display-Timeout auf `0`, sobald eine Streaming-App im Vordergrund startet.
+
+👉 **Installation:**
+
+[![Install Blueprint](https://my.home-assistant.io/badges/blueprint.svg)](
+https://my.home-assistant.io/redirect/blueprint_import/?url=https://raw.githubusercontent.com/23Phantom08/Home-Assistant-Blueprint/main/blueprints/fully_kiosk_streaming_timeout_off.yaml
+)
+
+---
+
+## ⏱ Blueprint 2 – Streaming Bildschirmtimer **an**
+
+Stellt den Display-Timeout wieder auf einen definierten Wert zurück,
+sobald eine Streaming-App verlassen wird.
+
+👉 **Installation:**
+
+[![Install Blueprint](https://my.home-assistant.io/badges/blueprint.svg)](
+https://my.home-assistant.io/redirect/blueprint_import/?url=https://raw.githubusercontent.com/23Phantom08/Home-Assistant-Blueprint/main/blueprints/fully_kiosk_streaming_timeout_restore.yaml
+)
+
+---
+
+## ⚠️ Wichtiger Hinweis
+Beide Blueprints sind als **Paar** gedacht.  
+Nur zusammen sorgen sie für korrektes Ein- und Ausschalten des Display-Timers.
+
+---
+
+## 👤 Autor 23Phantom08
