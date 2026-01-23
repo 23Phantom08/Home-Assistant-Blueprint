@@ -14,6 +14,9 @@ abhängig davon, ob eine Streaming-App im Vordergrund läuft.
   - Disney+
   - Amazon Prime Video
   - WOW (Sky)
+  - Jellyfin
+  - 1&1 App
+  - Amazon Music
 
 ## 🔧 Voraussetzungen
 - Fully Kiosk Browser  
