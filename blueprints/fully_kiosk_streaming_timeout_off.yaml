@@ -1,0 +1,47 @@
+blueprint:
+  name: "Fully Kiosk – Streaming Bildschirmtimer aus"
+  description: >
+    Setzt den Display-Timeout auf 0, wenn eine unterstützte
+    Streaming-App im Vordergrund gestartet wird.
+  domain: automation
+  source_url: https://github.com/23Phantom08/Home-Assistant-Blueprint/blob/main/blueprints/fully_kiosk_streaming_timeout_off.yaml
+
+  input:
+    app_sensor:
+      name: Vordergrund-App Sensor
+      selector:
+        entity:
+          domain: sensor
+
+    timeout_entity:
+      name: Bildschirm Timeout Entität
+      selector:
+        entity:
+          domain: number
+
+    netflix_pkg:
+      default: com.netflix.mediaclient
+    disney_pkg:
+      default: com.disney.disneyplus
+    prime_pkg:
+      default: com.amazon.avod.thirdpartyclient
+    wow_pkg:
+      default: de.sky.online
+
+trigger:
+  - platform: state
+    entity_id: !input app_sensor
+    to:
+      - !input netflix_pkg
+      - !input disney_pkg
+      - !input prime_pkg
+      - !input wow_pkg
+
+action:
+  - service: number.set_value
+    target:
+      entity_id: !input timeout_entity
+    data:
+      value: 0
+
+mode: single
