@@ -1,47 +1,56 @@
 blueprint:
   name: "Fully Kiosk – Streaming Bildschirmtimer an"
-  description: >
-    Stellt den Display-Timeout wieder auf einen definierten Wert zurück,
-    sobald die Streaming-App verlassen wird.
+  description: "Stellt den Display-Timeout wieder her, sobald keine ausgewählte Streaming-App mehr aktiv ist."
   domain: automation
   source_url: https://github.com/23Phantom08/Home-Assistant-Blueprint/blob/main/blueprints/fully_kiosk_streaming_timeout_restore.yaml
-
   input:
     app_sensor:
       name: Vordergrund-App Sensor
       selector:
         entity:
           domain: sensor
-
     timeout_entity:
       name: Bildschirm Timeout Entität
       selector:
         entity:
           domain: number
-
     restore_value:
+      name: Timeout-Wert (Sekunden)
       default: 80
       selector:
         number:
           min: 1
           max: 3600
+          unit_of_measurement: "s"
           mode: box
-
-    netflix_pkg:
-      default: com.netflix.mediaclient
-    disney_pkg:
-      default: com.disney.disneyplus
-    prime_pkg:
-      default: com.amazon.avod.thirdpartyclient
-    wow_pkg:
-      default: de.sky.online
+    streaming_apps:
+      name: Streaming-Apps
+      description: "Liste der Apps, die den Bildschirm eingeschaltet halten sollen"
+      default:
+        - "com.netflix.mediaclient"
+        - "com.disney.disneyplus"
+        - "com.amazon.avod.thirdpartyclient"
+        - "de.sky.online"
+        - "org.jellyfin.android.app"
+        - "de.oneandone.mobile.android"
+        - "com.amazon.mp3"
+      selector:
+        select:
+          multiple: true
+          custom_value: true # Erlaubt dem Nutzer, eigene Paketnamen hinzuzufügen
+          options:
+            - com.netflix.mediaclient
+            - com.disney.disneyplus
+            - com.amazon.avod.thirdpartyclient
+            - de.sky.online
+            - org.jellyfin.android.app
+            - de.oneandone.mobile.android
+            - com.amazon.mp3
 
 variables:
-  n_pkg: !input netflix_pkg
-  d_pkg: !input disney_pkg
-  p_pkg: !input prime_pkg
-  w_pkg: !input wow_pkg
+  # Hier definieren wir die Variablen für das Template
   t_ent: !input timeout_entity
+  apps_list: !input streaming_apps
 
 trigger:
   - platform: state
@@ -49,14 +58,14 @@ trigger:
 
 condition:
   - condition: template
+    # Wir nutzen 'apps_list' statt '!input'
     value_template: >
-      {{ trigger.to_state.state not in
-         [n_pkg, d_pkg, p_pkg, w_pkg, 'unknown', 'unavailable'] }}
+      {{ trigger.to_state.state not in (apps_list + ['unknown', 'unavailable']) }}
   - condition: template
     value_template: "{{ is_state(t_ent, '0') }}"
 
 action:
-  - service: number.set_value
+  - action: number.set_value
     target:
       entity_id: !input timeout_entity
     data:
