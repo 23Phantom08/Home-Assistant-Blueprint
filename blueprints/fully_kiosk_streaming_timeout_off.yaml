@@ -20,7 +20,7 @@ blueprint:
       default:
         - "com.netflix.mediaclient"
         - "com.disney.disneyplus"
-        - "com.amazon.avod.thirdpartyclient"
+        - "com.amazon.avod"
         - "de.sky.online"
         - "org.jellyfin.android.app"
         - "de.oneandone.mobile.android"
@@ -32,7 +32,7 @@ blueprint:
           options:
             - com.netflix.mediaclient
             - com.disney.disneyplus
-            - com.amazon.avod.thirdpartyclient
+            - com.amazon.avod
             - de.sky.online
             - org.jellyfin.android.app
             - de.oneandone.mobile.android
