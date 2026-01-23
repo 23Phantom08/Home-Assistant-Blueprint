@@ -5,7 +5,7 @@ blueprint:
     sobald eine Streaming-App im Vordergrund verlassen wird.
   domain: automation
   author: Mario Tamme
-  source_url: https://github.com/23Phantom08/ha-blueprints/blob/main/blueprints/fully_kiosk_streaming_timeout_restore.yaml
+  source_url: https://raw.githubusercontent.com/23Phantom08/ha-blueprints/main/blueprints/fully_kiosk_streaming_timeout_restore.yaml
   input:
     app_sensor:
       name: Vordergrund-App Sensor
