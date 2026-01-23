@@ -54,3 +54,5 @@ Nur zusammen sorgen sie für korrektes Ein- und Ausschalten des Display-Timers.
 ---
 
 ## 👤 Autor 23Phantom08
+
+[![Install Blueprint](https://my.home-assistant.io)](https://my.home-assistant.io)
