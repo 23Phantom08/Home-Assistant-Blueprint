@@ -54,5 +54,3 @@ Nur zusammen sorgen sie für korrektes Ein- und Ausschalten des Display-Timers.
 ---
 
 ## 👤 Autor 23Phantom08
-
-[![Install Blueprint](https://raw.githubusercontent.com/23Phantom08/Home-Assistant-Blueprint/main/blueprints/fully_kiosk_streaming_timeout_restore.yaml)
