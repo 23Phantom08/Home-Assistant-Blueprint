@@ -29,7 +29,7 @@ Setzt den Display-Timeout auf `0`, sobald eine Streaming-App im Vordergrund star
 👉 **Installation:**
 
 [![Install Blueprint](https://my.home-assistant.io/badges/blueprint.svg)](
-https://my.home-assistant.io/redirect/blueprint_import/?url=https://raw.githubusercontent.com/23Phantom08/Home-Assistant-Blueprint/main/blueprints/fully_kiosk_streaming_timeout_off.yaml
+https://my.home-assistant.io/redirect/blueprint_import/?url=https://raw.githubusercontent.com/23Phantom08/Home-Assistant-blueprints/fully_kiosk_streaming_timeout_off.yaml
 )
 
 ---
