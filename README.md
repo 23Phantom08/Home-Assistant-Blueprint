@@ -86,9 +86,9 @@ Diese Anleitung beschreibt Schritt für Schritt,wie Streaming-Apps in Home Assis
 
 ### Schritt 6: Aktion definieren
   - Wähle die Aktion "App starten"
-  - Trage den App Pfad ein
-  Beispiel:
-    - com.disney.disneyplus
+  - Trage den App Pfad ein.
+    - Beispiel:
+      - com.disney.disneyplus
   - Wähle das gewünschte Fully-Kiosk-Gerät aus
   - Speichern nicht vergessen
 
@@ -124,7 +124,11 @@ Diese Anleitung beschreibt Schritt für Schritt,wie Streaming-Apps in Home Assis
 
 # ✅ Fertig
 
+---
+
 ## Nach erfolgreicher Einrichtung können die Blueprints den Display-Timeout automatisch steuern, sobald eine der Apps gestartet oder beendet wird.
+
+---
 
 ## 👤 Autor 23Phantom08
 ⭐ Lasst mir gerne einen Stern da ⭐
