@@ -112,27 +112,27 @@ Nur zusammen sorgen sie für korrektes Ein- und Ausschalten des Display-Timers.
 
 # 📦 Unterstützte Apps & App-Pfade
 
-##Apps:
+# Apps:
   - name: Netflix
-    app_id: com.netflix.mediaclient
+  - app_id: com.netflix.mediaclient
 
   - name: Disney+
-    app_id: com.disney.disneyplus
+  - app_id: com.disney.disneyplus
 
   - name: Amazon Prime Video
-    app_id: com.amazon.avod.
+  - app_id: com.amazon.avod
 
   - name: WOW (Sky)
-    app_id: de.sky.online
+  - app_id: de.sky.online
 
   - name: Jellyfin
-    app_id: org.jellyfin.mobile
+  - app_id: org.jellyfin.mobile
 
   - name: Amazon Music
-    app_id: com.amazon.mp3
+  - app_id: com.amazon.mp3
 
   - name: 1&1 TV
-    app_id: com.einsundeinstv.player
+  - app_id: com.einsundeinstv.player
 
 ---
 
