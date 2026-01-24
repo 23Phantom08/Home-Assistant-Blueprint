@@ -55,7 +55,7 @@ Diese Anleitung beschreibt Schritt für Schritt,wie Streaming-Apps in Home Assis
 
 ## Installation_guide:
  
- Schritt 1: App installieren
+### Schritt 1: App installieren
   - Öffne den Google Play Store oder Amazon AppStore auf deinem Fully-Kiosk-Gerät
   - Lade die gewünschte Streaming-App herunter:
     - Netflix
@@ -124,12 +124,12 @@ Diese Anleitung beschreibt Schritt für Schritt,wie Streaming-Apps in Home Assis
 ---
 
 # ✅ Fertig
+
 ---
 
-# Nach erfolgreicher Einrichtung können die Blueprints den Display-Timeout automatisch steuern, sobald eine der Apps gestartet oder beendet wird.
+## Nach erfolgreicher Einrichtung können die Blueprints den Display-Timeout automatisch steuern, sobald eine der Apps gestartet oder beendet wird.
 
 ---
 
 ## 👤 Autor 23Phantom08
-
 ⭐ Lasst mir gerne einen Stern da ⭐
