@@ -73,24 +73,20 @@ Diese Anleitung beschreibt Schritt für Schritt,wie Streaming-Apps in Home Assis
     - Amazon Music
     - WOW (Sky)
 
-Schritt 2:
-    Home Assistant Dashboard bearbeiten
-      - Öffne Home Assistant
-      - Gehe zu deinem gewünschten Dashboard
-      - Aktiviere "Dashboard bearbeiten"
+ Schritt 2: Home Assistant Dashboard bearbeiten
+    - Öffne Home Assistant
+    - Gehe zu deinem gewünschten Dashboard
+    - Aktiviere "Dashboard bearbeiten"
 
-  Schritt 3:
-    Karte hinzufügen
-         - Klicke auf "Karte hinzufügen"
-         - Wähle die Kartenart "Bild"
+ Schritt 3: Karte hinzufügen
+    - Klicke auf "Karte hinzufügen"
+    - Wähle die Kartenart "Bild"
 
-  Schritt 4:
-    Bild konfigurieren
-         - Wähle ein vorhandenes Bild aus oder lade ein eigenes hoch
-         - Optional: Nutze App-Logos für bessere Übersicht
+ Schritt 4: Bild konfigurieren
+    - Wähle ein vorhandenes Bild aus oder lade ein eigenes hoch
+    - Optional: Nutze App-Logos für bessere Übersicht
 
-  Schritt 5:
-    Interaktionen konfigurieren
+Schritt 5: Interaktionen konfigurieren
          - Gehe zu "Interaktionen"
          - Wähle "Verhalten beim Antippen"
          - Setze den Modus auf "Aktion ausführen"
