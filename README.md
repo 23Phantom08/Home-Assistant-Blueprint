@@ -45,8 +45,9 @@ Stellt den Display-Timeout wieder auf einen definierten Wert zurück, sobald ein
 
 ---
 ## ⚠️ Wichtiger Hinweis
-Beide Blueprints sind als **Paar** gedacht.  
+### Beide Blueprints sind als **Paar** gedacht.  
 Nur zusammen sorgen sie für korrektes Ein- und Ausschalten des Display-Timers.
+
 ---
 
 # 📘 Fully Kiosk Browser – Streaming Apps Installation Guide
@@ -65,25 +66,25 @@ Diese Anleitung beschreibt Schritt für Schritt,wie Streaming-Apps in Home Assis
     - Amazon Music
     - WOW (Sky)
 
- Schritt 2: Home Assistant Dashboard bearbeiten
+### Schritt 2: Home Assistant Dashboard bearbeiten
   - Öffne Home Assistant
   - Gehe zu deinem gewünschten Dashboard
   - Aktiviere "Dashboard bearbeiten"
 
- Schritt 3: Karte hinzufügen
+### Schritt 3: Karte hinzufügen
   - Klicke auf "Karte hinzufügen"
   - Wähle die Kartenart "Bild"
 
- Schritt 4: Bild konfigurieren
+### Schritt 4: Bild konfigurieren
   - Wähle ein vorhandenes Bild aus oder lade ein eigenes hoch
   - Optional: Nutze App-Logos für bessere Übersicht
 
- Schritt 5: Interaktionen konfigurieren
+### Schritt 5: Interaktionen konfigurieren
   - Gehe zu "Interaktionen"
   - Wähle "Verhalten beim Antippen"
   - Setze den Modus auf "Aktion ausführen"
 
- Schritt 6: Aktion definieren
+### Schritt 6: Aktion definieren
   - Wähle die Aktion "App starten"
   - Trage den App Pfad ein
     Beispiel:
@@ -91,7 +92,7 @@ Diese Anleitung beschreibt Schritt für Schritt,wie Streaming-Apps in Home Assis
   - Wähle das gewünschte Fully-Kiosk-Gerät aus
   - Speichern nicht vergessen
 
- Schritt 7:
+### Schritt 7: Fully Kiosk Browser
   - Fully Kiosk Browser starten und den Kiosk Mode einstellen 
    - im Dashboard auf die gebaute Bild Karte drücken, Anmeldedaten beim Streaming Anbieter eingeben und fertig
 
