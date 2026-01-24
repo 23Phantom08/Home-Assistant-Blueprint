@@ -1,5 +1,5 @@
 # Home-Assistant-Blueprint
-Home Assistant Blueprints for Fully Kiosk Browser
+Home Assistant Blueprints for Fully Kiosk Browser (für Android)
 
 # Fully Kiosk – Streaming Display Timeout Blueprints
 
@@ -52,3 +52,5 @@ Nur zusammen sorgen sie für korrektes Ein- und Ausschalten des Display-Timers.
 ---
 
 ## 👤 Autor 23Phantom08
+
+⭐ Lasst mir gerne einen Stern da ⭐
