@@ -94,13 +94,13 @@ Diese Anleitung beschreibt Schritt für Schritt,wie Streaming-Apps in Home Assis
 
 ### Schritt 7: Fully Kiosk Browser
   - Fully Kiosk Browser starten und den Kiosk Mode einstellen 
-   - im Dashboard auf die gebaute Bild Karte drücken, Anmeldedaten beim Streaming Anbieter eingeben und fertig
+   - im Dashboard auf die gebaute Bild Karte drücken, Anmeldedaten beim Streaming Anbieter eingeben
 
 ---
 
 # 📦 Unterstützte Apps & App-Pfade
 
-# Apps:
+## Apps:
   - name: Netflix
   - app_id: com.netflix.mediaclient
 
@@ -126,7 +126,7 @@ Diese Anleitung beschreibt Schritt für Schritt,wie Streaming-Apps in Home Assis
 
 ---
 
-## Nach erfolgreicher Einrichtung können die Blueprints den Display-Timeout automatisch steuern, sobald eine der Apps gestartet oder beendet wird.
+### Nach erfolgreicher Einrichtung können die Blueprints den Display-Timeout automatisch steuern, sobald eine der Apps gestartet oder beendet wird.
 
 ---
 
