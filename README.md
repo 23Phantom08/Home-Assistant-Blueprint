@@ -108,11 +108,11 @@ Nur zusammen sorgen sie für korrektes Ein- und Ausschalten des Display-Timers.
    - Fully Kiosk Browser starten und den Kiosk Mode einstellen 
    - im Dashboard auf die gebaute Bild Karte drücken, Anmeldedaten beim Streaming Anbieter eingeben und fertig
 
-# =========================================================
-# 📦 Unterstützte Apps & App-Pfade
-# =========================================================
+---
 
-Apps:
+# 📦 Unterstützte Apps & App-Pfade
+
+##Apps:
   - name: Netflix
     app_id: com.netflix.mediaclient
 
@@ -134,11 +134,11 @@ Apps:
   - name: 1&1 TV
     app_id: com.einsundeinstv.player
 
-=============================================
-#
+---
+
 # ✅ Fertig
-# =========================================================
-# Nach erfolgreicher Einrichtung können die Blueprints
-# den Display-Timeout automatisch steuern,
-# sobald eine der Apps gestartet oder beendet wird.
-# =========================================================
+---
+
+# Nach erfolgreicher Einrichtung können die Blueprints den Display-Timeout automatisch steuern, sobald eine der Apps gestartet oder beendet wird.
+
+---
