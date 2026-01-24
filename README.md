@@ -55,15 +55,15 @@ Nur zusammen sorgen sie für korrektes Ein- und Ausschalten des Display-Timers.
 
 ⭐ Lasst mir gerne einen Stern da ⭐
 
-# =========================================================
+#===================================
 # 📘 Fully Kiosk – Streaming Apps Installation Guide
-# =========================================================
-# Diese Anleitung beschreibt Schritt für Schritt,
-# wie Streaming-Apps in Home Assistant mit Fully Kiosk
-# korrekt eingerichtet werden.
-# =========================================================
 
-installation_guide:
+# Diese Anleitung beschreibt Schritt für Schritt,
+wie Streaming-Apps in Home Assistant mit Fully Kiosk
+korrekt eingerichtet werden.
+
+
+Installation_guide:
   Schritt 1:
     App installieren
       - Öffne den Google Play Store oder Amazon AppStore auf deinem Fully-Kiosk-Gerät
