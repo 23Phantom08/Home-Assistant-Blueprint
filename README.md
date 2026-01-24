@@ -122,15 +122,9 @@ Diese Anleitung beschreibt Schritt für Schritt,wie Streaming-Apps in Home Assis
   - name: 1&1 TV
   - app_id: com.einsundeinstv.player
 
----
-
 # ✅ Fertig
 
----
-
 ## Nach erfolgreicher Einrichtung können die Blueprints den Display-Timeout automatisch steuern, sobald eine der Apps gestartet oder beendet wird.
-
----
 
 ## 👤 Autor 23Phantom08
 ⭐ Lasst mir gerne einen Stern da ⭐
