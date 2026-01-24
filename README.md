@@ -44,17 +44,9 @@ Stellt den Display-Timeout wieder auf einen definierten Wert zurück, sobald ein
 [![Install Blueprint](https://my.home-assistant.io/badges/blueprint.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://raw.githubusercontent.com/23Phantom08/Home-Assistant-Blueprint/main/blueprints/fully_kiosk_streaming_timeout_restore.yaml)
 
 ---
-
 ## ⚠️ Wichtiger Hinweis
 Beide Blueprints sind als **Paar** gedacht.  
 Nur zusammen sorgen sie für korrektes Ein- und Ausschalten des Display-Timers.
-
----
-
-## 👤 Autor 23Phantom08
-
-⭐ Lasst mir gerne einen Stern da ⭐
-
 ---
 
 # 📘 Fully Kiosk Browser – Streaming Apps Installation Guide
@@ -137,3 +129,7 @@ Diese Anleitung beschreibt Schritt für Schritt,wie Streaming-Apps in Home Assis
 # Nach erfolgreicher Einrichtung können die Blueprints den Display-Timeout automatisch steuern, sobald eine der Apps gestartet oder beendet wird.
 
 ---
+
+## 👤 Autor 23Phantom08
+
+⭐ Lasst mir gerne einen Stern da ⭐
