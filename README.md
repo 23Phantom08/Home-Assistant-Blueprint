@@ -62,10 +62,11 @@ Nur zusammen sorgen sie für korrektes Ein- und Ausschalten des Display-Timers.
 Diese Anleitung beschreibt Schritt für Schritt,wie Streaming-Apps in Home Assistant mit Fully Kiosk korrekt eingerichtet werden.
 
 ## Installation_guide:
-###Schritt 1:
-App installieren
-      - Öffne den Google Play Store oder Amazon AppStore auf deinem Fully-Kiosk-Gerät
-      - Lade die gewünschte Streaming-App herunter:
+ 
+ Schritt 1:
+   App installieren
+    - Öffne den Google Play Store oder Amazon AppStore auf deinem Fully-Kiosk-Gerät
+    - Lade die gewünschte Streaming-App herunter:
          - Netflix
          - Disney+
          - Amazon Prime Video
@@ -105,7 +106,7 @@ Schritt 2:
          - Speichern nicht vergessen
 
  Schritt 7:
-   - Fully Kiosk Browser starten und den Kiosk Mode einstellen 
+  - Fully Kiosk Browser starten und den Kiosk Mode einstellen 
    - im Dashboard auf die gebaute Bild Karte drücken, Anmeldedaten beim Streaming Anbieter eingeben und fertig
 
 ---
