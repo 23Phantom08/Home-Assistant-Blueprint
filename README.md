@@ -63,16 +63,15 @@ Diese Anleitung beschreibt Schritt für Schritt,wie Streaming-Apps in Home Assis
 
 ## Installation_guide:
  
- Schritt 1:
-   App installieren
-    - Öffne den Google Play Store oder Amazon AppStore auf deinem Fully-Kiosk-Gerät
-    - Lade die gewünschte Streaming-App herunter:
-         - Netflix
-         - Disney+
-         - Amazon Prime Video
-         - Jellyfin
-         - Amazon Music
-         - WOW (Sky)
+ Schritt 1: App installieren
+  - Öffne den Google Play Store oder Amazon AppStore auf deinem Fully-Kiosk-Gerät
+  - Lade die gewünschte Streaming-App herunter:
+    - Netflix
+    - Disney+
+    - Amazon Prime Video
+    - Jellyfin
+    - Amazon Music
+    - WOW (Sky)
 
 Schritt 2:
     Home Assistant Dashboard bearbeiten
