@@ -91,14 +91,13 @@ Diese Anleitung beschreibt Schritt für Schritt,wie Streaming-Apps in Home Assis
   - Wähle "Verhalten beim Antippen"
   - Setze den Modus auf "Aktion ausführen"
 
-  Schritt 6:
-    Aktion definieren
-         - Wähle die Aktion "App starten"
-         - Trage den App Pfad ein
-              Beispiel:
-               - com.disney.disneyplus
-         - Wähle das gewünschte Fully-Kiosk-Gerät aus
-         - Speichern nicht vergessen
+ Schritt 6: Aktion definieren
+  - Wähle die Aktion "App starten"
+  - Trage den App Pfad ein
+    Beispiel:
+     - com.disney.disneyplus
+  - Wähle das gewünschte Fully-Kiosk-Gerät aus
+  - Speichern nicht vergessen
 
  Schritt 7:
   - Fully Kiosk Browser starten und den Kiosk Mode einstellen 
