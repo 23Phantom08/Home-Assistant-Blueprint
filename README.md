@@ -50,11 +50,11 @@ Nur zusammen sorgen sie für korrektes Ein- und Ausschalten des Display-Timers.
 
 ---
 
-# 📘 Fully Kiosk Browser – Streaming Apps Installation Guide
+# 📘 Fully Kiosk Browser – Streaming Apps Installations Anleitung
 
 Diese Anleitung beschreibt Schritt für Schritt,wie Streaming-Apps in Home Assistant mit Fully Kiosk korrekt eingerichtet werden.
 
-## Installation_guide:
+## Installations Anleitung:
  
 ### Schritt 1: App installieren
   - Öffne den Google Play Store oder Amazon AppStore auf deinem Fully-Kiosk-Gerät
