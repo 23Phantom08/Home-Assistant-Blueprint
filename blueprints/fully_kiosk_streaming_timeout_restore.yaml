@@ -31,8 +31,8 @@ blueprint:
         - "com.disney.disneyplus"
         - "com.amazon.avod"
         - "de.sky.online"
-        - "org.jellyfin.android.app"
-        - "de.oneandone.mobile.android"
+        - "org.jellyfin.mobile"
+        - "com.einsundeinstv.player"
         - "com.amazon.mp3"
       selector:
         select:
@@ -43,8 +43,8 @@ blueprint:
             - com.disney.disneyplus
             - com.amazon.avod
             - de.sky.online
-            - org.jellyfin.android.app
-            - de.oneandone.mobile.android
+            - org.jellyfin.mobile
+            - com.einsundeinstv.player
             - com.amazon.mp3
 
 variables:
