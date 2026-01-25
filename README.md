@@ -1,7 +1,7 @@
 # Home-Assistant-Blueprint
 Home Assistant Blueprints for Fully Kiosk Browser (für Android)
 
-# Fully Kiosk – Streaming Display Timeout Blueprints
+# Fully Kiosk Browser – Streaming Display Timeout Blueprints
 
 Diese Blueprints steuern automatisch den Bildschirm-Timeout von **Fully Kiosk Browser**,  
 abhängig davon, ob eine Streaming-App im Vordergrund läuft.
