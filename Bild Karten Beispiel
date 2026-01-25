@@ -1,0 +1,68 @@
+type: horizontal-stack
+cards:
+  - type: vertical-stack
+    cards:
+      - type: picture
+        tap_action:
+          action: perform-action
+          perform_action: fully_kiosk.start_application
+          target:
+            device_id: 6c6088c80b193b3112607a36fdaf2105
+          data:
+            application: com.disney.disneyplus
+        image: https://demo.home-assistant.io/stub_config/t-shirt-promo.png
+      - type: vertical-stack
+        cards:
+          - type: picture
+            tap_action:
+              action: perform-action
+              perform_action: fully_kiosk.start_application
+              target:
+                device_id: 6c6088c80b193b3112607a36fdaf2105
+              data:
+                application: org.jellyfin.mobile
+            image: https://demo.home-assistant.io/stub_config/t-shirt-promo.png
+  - type: vertical-stack
+    cards:
+      - type: picture
+        tap_action:
+          action: perform-action
+          perform_action: fully_kiosk.start_application
+          target:
+            device_id: 6c6088c80b193b3112607a36fdaf2105
+          data:
+            application: com.netflix.mediaclient
+        image: https://demo.home-assistant.io/stub_config/t-shirt-promo.png
+      - type: vertical-stack
+        cards:
+          - type: picture
+            tap_action:
+              action: perform-action
+              perform_action: fully_kiosk.start_application
+              target:
+                device_id: 6c6088c80b193b3112607a36fdaf2105
+              data:
+                application: de.sky.online
+            image: https://demo.home-assistant.io/stub_config/t-shirt-promo.png
+  - type: vertical-stack
+    cards:
+      - type: picture
+        tap_action:
+          action: perform-action
+          perform_action: fully_kiosk.start_application
+          target:
+            device_id: 6c6088c80b193b3112607a36fdaf2105
+          data:
+            application: com.amazon.avod
+        image: https://demo.home-assistant.io/stub_config/t-shirt-promo.png
+      - type: vertical-stack
+        cards:
+          - type: picture
+            tap_action:
+              action: perform-action
+              perform_action: fully_kiosk.start_application
+              target:
+                device_id: 6c6088c80b193b3112607a36fdaf2105
+              data:
+                application: com.amazon.mp3
+            image: https://demo.home-assistant.io/stub_config/t-shirt-promo.png
