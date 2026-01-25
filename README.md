@@ -21,7 +21,7 @@ abhängig davon, ob eine Streaming-App im Vordergrund läuft.
 ## 🔧 Voraussetzungen
 - Fully Kiosk Browser  
 - Sensor, der die aktuell aktive App meldet  
-- Number-Entity für den Display-Timeout (z. B. Fully Kiosk Integration)
+- Number-Entity für den Display-Timeout (Fully Kiosk Integration)
 
 ---
 
